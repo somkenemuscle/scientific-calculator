@@ -1,31 +1,46 @@
-/* h1 {
-	text-align: center;
-	padding: 23px;
-	background-color: skyblue;
-	color: white;
-}
-
-
-
-
-
-
-input {
-	width: 20px;
-	background-color: white;
-	color: black;
-	border: 3px solid gray;
-	border-radius: 5px;
-	padding: 26px;
-	margin: 5px;
-	font-size: 15px;
-
-} */
-
 body{
 	background-color: black;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	
+}
+
+@media only screen and (max-width: 425px){
+	.keys2 input{
+		display: inline-block;
+		border: 1px solid #bbb;
+		border-radius: 10px;
+		width: 55px;
+		text-align: center;
+		padding: 10px;
+		margin: 10px 4px 10px 0;
+		cursor: pointer;
+		font-weight: lighter;
+		color: #fff;
+	  background-color: darkslategrey;
+		transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+		
+		height: 32px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans;
+	
+		box-shadow: inset 0px 1px 7px 0px gray;
+		
+		-webkit-transition-duration: 0s;
+		-moz-transition-duration: 0s;
+		-o-transition-duration: 0s;
+		transition-duration: 0s;
+	}
+	.formstyle {
+		width: 248px;
+		height: 470px;
+		margin: auto;
+		border: 2px solid white;
+		border-radius: 25px;
+		padding: 20px;
+		background-color: gray;
+	  box-shadow: 0px 0px 1px 0px white, inset 0px 0px 15px 0px black;
+	
+	}
+
 }
 
 .equal{
@@ -56,6 +71,21 @@ body{
 	height: 5px;
 
 } */
+#rmOne{
+	background-color: darkslategray;
+	color: white;
+	border: 1px solid ;
+	border-radius: 13px;
+	width: 55px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 4px 10px 0;
+	cursor: pointer;
+	font-weight: lighter;
+	transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans
+}
+
 
 .keys2 input{
 	display: inline-block;
@@ -136,8 +166,26 @@ body{
   box-shadow: 0px 0px 1px 0px white, inset 0px 0px 15px 0px black;
 
 }
+
+
+#shift{
+	background-color: darkslategray;
+	color: white;
+	border: 1px solid ;
+	border-radius: 13px;
+	width: 55px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 4px 10px 0;
+	cursor: pointer;
+	font-weight: lighter;
+	transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans
+}
+
+
 #clear{
-	width: 180px;
+	width: 117px;
 	border: 1px solid #bbb;
 	border-radius: 10px;
 	text-align: center;
