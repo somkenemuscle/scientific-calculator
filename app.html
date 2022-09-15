@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+  <div class="formstyle">
+    <p class="title">SCIENTIFIC CALCULATOR</p>
+    <form name="form1">
+
+      <!-- This input box shows the button pressed by the user in calculator. -->
+  <span class="inp">
+    <input id="calc" type="text" name="answer">
+    <div class="ans"></div>
+  </span>
+      
+      
+      <!-- Display the calculator button on the screen. -->
+      <!-- onclick() function display the number prsses by the user. -->
+      <span class="keys2">
+
+        <span class="operators">
+          <input type="button" value="tan">
+          <input type="button" value="cos">
+          <input type="button" value="sin">
+  
+  <input type="button" value="tanh">
+  <input type="button" value="cosh">
+  <input type="button" value="sinh">
+
+        </span>
+        <span class="keys">
+
+          <input type="button" value="/">
+          <input type="button" value="%">
+         <input type="button" value="(">
+         
+         <input type="button" value=")">
+  
+          
+          <input type="button" value="-">
+  
+          
+          <input type="button" value="*">
+
+          <input type="button" value="+">
+          
+       
+          <input type="button" value="9">
+
+          <input type="button" value="8">
+
+          <input type="button" value="7">
+
+          <input type="button" value="6">
+
+          <input type="button" value="5">
+
+          <input type="button" value="4">
+
+          <input type="button" value="3">
+          <input type="button" value="2">
+          <input type="button" value="1">
+
+          <input type="button" value="0">
+
+        </span>
+  
+
+
+        
+        <!-- When we click on the '=' button, the onclick() shows the sum results on the calculator screen. -->
+        
+          <input class="equal" type="button" value="Ans">
+      
+  
+        <!-- Display the Cancel button and erase all data entered by the user. -->
+      </span>
+      <input type="button" value="AC" id="clear">
+
+      <input class="equal" type="button" value="=">
+    
+    </form>
+  </div>
+
+
+
+
+
+  <p id="cheat"> </p>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
