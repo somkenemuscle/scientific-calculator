@@ -1,10 +1,16 @@
 body{
+	/* background-color: black; */
 	background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	
 }
 
-@media only screen and (max-width: 425px){
+/* @media only screen and (max-width: 425px){
 	.keys2 input{
 		display: inline-block;
 		border: 1px solid #bbb;
@@ -41,7 +47,7 @@ body{
 	
 	}
 
-}
+} */
 
 .equal{
 	background-color: black;
@@ -125,45 +131,86 @@ body{
   }
 
 #calc {
-	width: 205px;
+    height: 30px;
+	border: 0px solid white;
+    background-color: #c3c2ab ;
+    display: flex;
+    color: black;
+    font-size: 14px;
+    align-items: flex-end;
+    padding-left: 14px;
+    width: 94.6%;
+    /* word-break: break-word;
+    word-wrap: break-word;
+    overflow-y: scroll; */
+	outline: none;
+
+	/* width: 205px;
 	border: 0px solid white;
 	padding: 20px;
 	margin: auto;
 	font-size: 15px;
 	outline: none;
 	font-weight: bolder;
-	background-color: #c3c2ab
+	background-color: #c3c2ab */
 	
 }
 .title{
-	text-align: center;
+	/* text-align: center;
 	color: white;
 	margin: 0 80px;
 	font-weight: lighter;
-	padding-bottom: 10px;
+	padding-bottom: 10px; */
+	color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    height: 20px;
+    font-weight: bold;
 
 }
 
 .ans {
-	text-align: right;
+	/* text-align: right;
 	width: 245px;
 	background-color: #c3c2ab;
 	border: 0px solid black;
 	font-weight: bold;
-	margin-right: -20px;
+	margin-right: -20px; */
 
+	display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 40px;
+    border-bottom: 0px solid white;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: black;
+    text-overflow: ellipsis;
+    position: relative;
+    background-color: #c3c2ab;
 	
 }
 
 .formstyle {
-	width: 248px;
+	display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 3px;
+    border: 5px solid white;
+    border-radius: 25px;
+	background-color: gray;
+	box-shadow: 0px 0px 1px 0px white, inset 0px 0px 15px 0px black;
+	/* width: 248px;
 	height: 470px;
 	margin: auto;
 	border: 2px solid white;
 	border-radius: 25px;
 	padding: 20px;
-	background-color: gray;
-  box-shadow: 0px 0px 1px 0px white, inset 0px 0px 15px 0px black;
+	
+ */
 
 }
 
