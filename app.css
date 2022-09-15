@@ -50,7 +50,7 @@ body{
 } */
 
 .equal{
-	background-color: black;
+	/* background-color: black;
 	color: white;
 	border: 1px solid ;
 	border-radius: 13px;
@@ -61,7 +61,30 @@ body{
 	cursor: pointer;
 	font-weight: bolder;
 	transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans; */
+
+	display: inline-block;
+	border: 1px solid #bbb;
+	border-radius: 10px;
+	width: 55px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 4px 10px 0;
+	cursor: pointer;
+	font-weight: lighter;
+	color: white;
+  background-color: black;
+	transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+	
+	height: 32px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans;
+
+	box-shadow: inset 0px 1px 7px 0px gray;
+	
+	-webkit-transition-duration: 0s;
+	-moz-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s;
 }
 /* .keys2 input {
 	width: 15x;
@@ -78,7 +101,7 @@ body{
 
 } */
 #rmOne{
-	background-color: darkslategray;
+	/* background-color: darkslategray;
 	color: white;
 	border: 1px solid ;
 	border-radius: 13px;
@@ -89,7 +112,31 @@ body{
 	cursor: pointer;
 	font-weight: lighter;
 	transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans; */
+
+	
+	display: inline-block;
+	border: 1px solid #bbb;
+	border-radius: 10px;
+	width: 55px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 4px 10px 0;
+	cursor: pointer;
+	font-weight: lighter;
+	color: white;
+  background-color: darkslategray;
+	transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+	
+	height: 32px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans;
+
+	box-shadow: inset 0px 1px 7px 0px gray;
+	
+	-webkit-transition-duration: 0s;
+	-moz-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s;
 }
 
 
@@ -139,7 +186,7 @@ body{
     font-size: 14px;
     align-items: flex-end;
     padding-left: 14px;
-    width: 94.6%;
+    width: 93.8%;
     /* word-break: break-word;
     word-wrap: break-word;
     overflow-y: scroll; */
@@ -197,8 +244,8 @@ body{
 .formstyle {
 	display: flex;
     flex-direction: column;
-    width: 280px;
-    padding: 3px;
+    width: 250px;
+    padding: 10px;
     border: 5px solid white;
     border-radius: 25px;
 	background-color: gray;
@@ -232,7 +279,7 @@ body{
 
 
 #clear{
-	width: 117px;
+	/* width: 117px;
 	border: 1px solid #bbb;
 	border-radius: 10px;
 	text-align: center;
@@ -243,7 +290,31 @@ body{
 	background-color: #d9534f;
 	transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black; */
+
+
+	display: inline-block;
+	border: 1px solid #bbb;
+	border-radius: 10px;
+	width: 117px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 4px 10px 0;
+	cursor: pointer;
+	font-weight: lighter;
 	color: black;
+  background-color: #d9534f;
+	transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+	
+	height: 32px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans;
+
+	box-shadow: inset 0px 1px 7px 0px gray;
+	
+	-webkit-transition-duration: 0s;
+	-moz-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s;
 }
 
 #cheat{
