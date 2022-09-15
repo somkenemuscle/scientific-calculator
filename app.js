@@ -5,7 +5,7 @@ let ans = document.querySelector(".ans")
 let clear = document.getElementById("clear")
 let equal = document.querySelectorAll(".equal")
 let cheat = document.getElementById("cheat")
-let RmOne = document.getElementById("rmOne")
+let remove = document.getElementById("rmOne")
 //let shift = document.getElementById("shift")
 
 
@@ -161,7 +161,7 @@ equal.forEach(eq => {
 });
 
 
-RmOne.addEventListener("click", () => {
+remove.addEventListener("click", () => {
 var str = input.value
     // the character 'g' will be removed
     str = str.slice(0, -1);
